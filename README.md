@@ -18,3 +18,7 @@ The difference between the predicted values and ground truth measures the error 
 # Gradient descent
 
  Gradient descent is a method of updating a_0 and a_1 to reduce the cost function(MSE). The idea is that we start with some values for a_0 and a_1 and then we change these values iteratively to reduce the cost. 
+
+![gd](https://user-images.githubusercontent.com/44145876/52447095-c13c6800-2b6a-11e9-8026-3af987f13b85.png)
+
+The partial derivates are the gradients and they are used to update the values of a_0 and a_1. Alpha is the learning rate which is a hyperparameter that you must specify. A smaller learning rate could get you closer to the minima but takes more time to reach the minima, a larger learning rate converges sooner but there is a chance that you could overshoot the minima.
