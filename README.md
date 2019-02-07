@@ -10,3 +10,5 @@ The motive of the linear regression algorithm is to find the best values for a_0
 ## Cost Function
 
 Since we want the best values for a_0 and a_1, we convert this search problem into a minimization problem where we would like to minimize the error between the predicted value and the actual value.
+
+![lr](https://user-images.githubusercontent.com/44145876/52446701-b9c88f00-2b69-11e9-8f15-b3fbe162e1b4.png)
